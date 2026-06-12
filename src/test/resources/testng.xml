@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="JSONPlaceholder API Test Suite" verbose="2" parallel="none">
+
+    <test name="POST Path Comments Tests — GET /posts/1/comments">
+        <classes>
+            <class name="test.java.org.example.tests.PostCommentsPathTest"/>
+        </classes>
+    </test>
+
+    <test name="Query Param Comments Tests — GET /comments?postId=1">
+        <classes>
+            <class name="test.java.org.example.tests.CommentsQueryParamTest"/>
+        </classes>
+    </test>
+
+</suite>
